@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        
+		<title>DiMario's</title>
+		
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/menu.css">	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="resources/js/script.js"></script>
+        
+	</head>
+	
+	<body>
+		
+        <a href="index.html"><img src="resources/img/DiMarios Logo.svg" alt="Di Mario's Logo" class="logo"></a>
+        <p class="slogan">Authentic handmade pizzas made with fresh, local All-Irish produce.</p>
+        
+		<div class="topnav" id="myTopnav">
+            <a href="checkout.html" style="float:right">Your Order</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="index.html">Home</a>
+  		    <a href="about.html">About</a>
+  		    <a href="#">Account</a>
+		</div>
+		
+        
+        
+        <div class="container">
+            <br>
+            <br>
+            <h3>Favourites</h3>
+            <hr>
+            <br>
+            <ul class="icons">
+                <li class="menu"><img src="resources/img/vege-icon.svg" height="25px"> Vegetarian</li>
+                <li class="menu"><img src="resources/img/vegan-icon.svg" height="25px"> Vegan</li>
+                <li class="menu"><img src="resources/img/hot-icon.svg" height="25px"> Hot</li>
+            </ul>
+            <br>
+            <div id="favourites">
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                            <li class="menu"><div class="heart"><span id = heart-1><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/vegan-icon.svg" height="30px"></li>
+                            <li class="menu"><img src="resources/img/hot-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Spicy%20Vegetarian.jpg" width= "100%">
+                        <p class="item-name">12" Spicy Veggie</p>
+                    </div>
+                    <p class="ingredients">Spicy Sun-dried Tomato Pesto, Cashew Cream, Red Onions, Peppers, Baby Leaf Spinach</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                            <li class="menu"><div class="heart"><span id = heart-2><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/hot-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Sausage.jpg" width= "100%">
+                        <p class="item-name">12" Spicy Sausage</p>
+                    </div>
+                    <p class="ingredients">Crushed Tomato, Mozzarella, Ricotta, Fennel Sausage, Red Onion, Fresh Chilli</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+        
+        <div class="container">
+            <br>
+            <br>
+            <h3>House Specials</h3>
+            <hr>
+            <br>
+            <ul class="icons">
+                <li class="menu"><img src="resources/img/vege-icon.svg" height="25px"> Vegetarian</li>
+                <li class="menu"><img src="resources/img/vegan-icon.svg" height="25px"> Vegan</li>
+                <li class="menu"><img src="resources/img/hot-icon.svg" height="25px"> Hot</li>
+            </ul>
+            <br>
+            <div id="house-specials">
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                            <li class="menu"><div class="heart"><span id = heart-3><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                        </ul>
+                        <img src="resources/img/Chicken.jpg" width= "100%">
+                        <p class="item-name">12" Chicken</p>
+                    </div>
+                    <p class="ingredients">Chicken, Mozzarella, Feta, Sun-dried Tomato, Baby Leaf Spinach, Pine Nuts, Honey, Parmesan.</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                             <li class="menu"><div class="heart"><span id = heart-5><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                        </ul>
+                        <img src="resources/img/Pepperoni.jpg" width= "100%">
+                        <p class="item-name">12" Pepperoni</p>
+                    </div>
+                    <p class="ingredients">Crushed Tomato Sauce, Mozzarella, Pepperoni</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                 <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                            <li class="menu"><div class="heart"><span id = heart-5><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/vege-icon.svg" height="30px"></li>
+                            <li class="menu"><img src="resources/img/vegan-icon.svg" height="30px"></li>
+                            <li class="menu"><img src="resources/img/hot-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Spicy%20Vegetarian.jpg" width= "100%">
+                        <p class="item-name">12" Spicy Veggie</p>
+                    </div>
+                    <p class="ingredients">Spicy Sun-dried Tomato Pesto, Cashew Cream, Red Onions, Peppers, Baby Leaf Spinach</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                  <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                             <li class="menu"><div class="heart"><span id = heart-6><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/vege-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Tomato%20Basil.jpg" width= "100%">
+                        <p class="item-name">12" Tomato & Basil</p>
+                    </div>
+                    <p class="ingredients">Crushed Tomato Sauce, Mozzarella, Garlic, Oregano, Basil, Cherry Tomatoes</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                            <li class="menu"><div class="heart"><span id = heart-7><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/hot-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Sausage.jpg" width= "100%">
+                        <p class="item-name">12" Spicy Sausage</p>
+                    </div>
+                    <p class="ingredients">Crushed Tomato, Mozzarella, Ricotta, Fennel Sausage, Red Onion, Fresh Chilli</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+            </div>
+       
+        
+        </div>
+        
+        <div class="container">
+            <br>
+            <br>
+            <h3>Mystery Box</h3>
+            <hr>
+            <br>
+            <ul class="icons">
+                <li class="menu"><img src="resources/img/vege-icon.svg" height="25px"> Vegetarian</li>
+                <li class="menu"><img src="resources/img/vegan-icon.svg" height="25px"> Vegan</li>
+                <li class="menu"><img src="resources/img/hot-icon.svg" height="25px"> Hot</li>
+            </ul>
+            <br>
+            <div id="mystery-box">
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                            <li class="menu"><div class="heart"><span id = heart-8><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                        </ul>
+                        <img src="resources/img/Mystery%20Box.jpg" width= "100%">
+                        <p class="item-name">12" Mystery Meat</p>
+                    </div>
+                    <p class="ingredients">Chef Special Pizza with seasonal meat, vegetables & cheese. Option to make Pizza spicy.</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                             <li class="menu"><div class="heart"><span id = heart-9><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/vege-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Mystery%20Box.jpg" width= "100%">
+                        <p class="item-name">12" Mystery Vegetarian</p>
+                    </div>
+                    <p class="ingredients">Chef Special Pizza with seasonal vegetables & cheese. Option to make Pizza spicy.</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+                
+                 <div class="menu-item">
+                    <div class="item-top">
+                        <ul class="menu-icons">
+                           <li class="menu"><div class="heart"><span id = heart-10><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i> </span></div></li>
+                            <li class="menu"><img src="resources/img/vegan-icon.svg" height="30px"></li>
+                        </ul>
+                        <img src="resources/img/Mystery%20Box.jpg" width= "100%">
+                        <p class="item-name">12" Mystery Vegan</p>
+                    </div>
+                    <p class="ingredients">Spicy Sun-dried Tomato Pesto, Cashew Cream, Red Onions, Peppers, Baby Leaf Spinach</p>
+                    <ul class="item-price">
+                        <li class="add-order">Add to Order</li>
+                        <li class="price" style="float:right">€15</li>
+                    </ul>
+                </div>
+            </div>
+       
+        </div>
+		
+		<footer>
+			<ul class="ul-footer">
+                <li class="widgets"><a href="about.html#contact">Contact Us</a></li>
+ 				<li class="widgets">
+ 					<a href="https://www.facebook.com/">
+ 						<img src="resources/img/facebook.svg" height="20px"></a>
+ 				</li>
+				<li class="widgets">
+					<a href="https://www.instagram.com/">
+						<img src="resources/img/instagram.svg" height="20px"></a>
+				</li>
+				<li class="widgets">
+					<a href="https://twitter.com/">
+						<img src="resources/img/twitter.svg" height="20px"></a>
+				</li>
+			</ul>
+		</footer>
+	
+	</body>
+
+</html>

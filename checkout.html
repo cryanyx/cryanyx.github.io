@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>DiMario's</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/checkout.css">	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="resources/js/script.js"></script>
+        
+	</head>
+	
+	<body>
+		
+        <a href="index.html"><img src="resources/img/DiMarios Logo.svg" alt="Di Mario's Logo" class="logo"></a>
+        <p class="slogan">Authentic handmade pizzas made with fresh, local All-Irish produce.</p>
+        
+		<div class="topnav" id="myTopnav">
+            <a href="checkout.html" style="float:right" class="active">Your Order</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="menu.html">Menu</a>
+            <a href="index.html">Home</a>
+  		    <a href="about.html">About</a>
+  		    <a href="#">Account</a>
+		</div>
+        
+        <div class="your-order">
+            <br>
+            <br>
+            <h3>Your Order</h3>
+            <hr>
+            <br>
+            <div class="checkout-item">
+                <div class="checkout-info">
+                    <div class="item-img">
+                        <img src="resources/img/Spicy%20Vegetarian.jpg" width="100%">
+                        <p class="item-name">12" Spicy Veggie</p>
+                    </div>
+                </div>
+                <div class="checkout-info">
+                    <div class="item-unit">
+                        <p class="text">12" Spicy Veggie</p>
+                        <br>
+                        <div class="number">
+                            <span class="minus">-</span>
+                            <input type="text" value="1"/>
+                            <span class="plus">+</span>
+                        </div>
+                        <p class="action">Remove</p>
+                    </div>
+                </div>
+                <div class="checkout-info">
+                    <div class="item-price">
+                        <p class="text">€15.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div class="checkout-item">
+                <div class="checkout-info">
+                    <div class="item-img">
+                        <img src="resources/img/Sausage.jpg" width="100%">
+                        <p class="item-name">12" Spicy Sausage</p>
+                    </div>
+                </div>
+                <div class="checkout-info">
+                    <div class="item-unit">
+                        <p class="text">12" Spicy Sausage</p>
+                        <br>
+                        <div class="number">
+                            <span class="minus">-</span>
+                            <input type="text" value="1"/>
+                            <span class="plus">+</span>
+                        </div>
+                        <p class="action">Remove</p>
+                    </div>
+                </div>
+                <div class="checkout-info">
+                    <div class="item-price">
+                        <p class="text">€15.00</p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="calc">
+            <div class="calc-col">
+                <div class="col-1">
+                </div>
+            </div>
+            <div class="calc-col">
+                <div class="col-2">
+                    <p class="text">
+                    Subtotal:<br>
+                    Delivery:<br>
+                    Total:<br>
+                    </p>
+                </div>
+            </div>
+            <div class="calc-col">
+                <div class="col-3">
+                    <p class="text">
+                    €30.00<br>
+                    Calculated at checkout<br>
+                    Calculated at checkout<br></p>
+                    <br>
+                    <p class="action"><a href="menu.html">Back to Menu</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="checkout">
+            <br>
+            <br>
+            <h3>Checkout</h3>
+            <hr>
+            <br>
+            <br>
+            <button> 
+                <p class="checkout">Quick Checkout</p>
+                <p class="secure">Securely Pay with Saved Details</p>
+            </button>
+            <br>
+            <br>
+            <div class="form-container">
+                <div class="payment-form">
+                    <form action="/action_page.php">
+                        
+                        <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name...">
+
+                        <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Your email...">
+
+                        <label for="number">Contact Number</label>
+                            <input type="text" id="number" name="number" placeholder="Your contact number...">
+                        
+                         <div class="submit-container">
+                            <input type="submit" value="Delivery Address">
+                        </div>
+                        <br>
+                        <p class="action">Manually Add Address</p>
+                        <br>
+                        <p class="text">OR</p>
+                        
+                         <div class="submit-container">
+                            <input type="submit" value="Collection">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+            <br>
+            <button> 
+                <p class="checkout">Guest Checkout</p>
+            </button>
+        </div>
+		
+		<footer>
+			<ul class="ul-footer">
+                <li class="widgets"><a href="about.html#contact" class="contact-us">Contact Us</a></li>
+ 				<li class="widgets">
+ 					<a href="https://www.facebook.com/">
+ 						<img src="resources/img/facebook.svg" height="20px"></a>
+ 				</li>
+				<li class="widgets">
+					<a href="https://www.instagram.com/">
+						<img src="resources/img/instagram.svg" height="20px"></a>
+				</li>
+				<li class="widgets">
+					<a href="https://twitter.com/">
+						<img src="resources/img/twitter.svg" height="20px"></a>
+				</li>
+			</ul>
+		</footer>
+	
+	</body>
+
+</html>

@@ -1,0 +1,236 @@
+* { margin:0;
+	padding:0;
+	box-sizing: border-box;}
+
+html {background-color: #FAECEE;
+  	background-image: url("resources/Grid Tile.svg");
+  	background-size: 120px;
+  	background-repeat: repeat;}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom:15px;
+  width: 180px;}
+
+p.slogan { width: 100%;
+	margin-bottom: 20px;
+	font-family: 'Source Code Pro';
+	font-size: 16px;
+	color: #1E1E20;
+	text-align:center;}
+
+.topnav{
+    background-color: rgba(255, 104, 80, 0.65);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: rgba(30, 30, 32, 1); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgba(255, 104, 80, 1);
+    color: rgba(255, 227, 94, 1);
+}
+
+.topnav a.active{
+    background-color: rgba(255, 104, 80, 1);
+    color: rgba(255, 227, 94, 1);
+}
+
+.topnav .icon{
+    display: none;
+}
+h3 {font-family: 'Bebas Neue';
+    color: #FF6850;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr {border-top: 3px solid #FF6850;}
+
+#favourites {
+  display: flex;
+  flex-flow: row wrap;
+    justify-content: center;
+    }
+#house-specials {
+  display: flex;
+  flex-flow: row wrap;
+    justify-content: center;
+    }
+#mystery-box {
+  display: flex;
+  flex-flow: row wrap;
+    justify-content: center;
+    }
+
+.menu-item {
+    margin: 10px;
+    height: auto;
+    width: calc(80% / 3);
+    }
+
+.item-top{
+    position: relative;
+    text-align: center;
+}
+
+p.item-name {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #FAECEE;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    }
+
+.menu-icons{
+    list-style: none;
+}
+
+p.ingredients{
+    width: 100%;
+    height: 60px;
+    background: rgba(255,227,94,0.65);
+    font-family: 'Source Code Pro';
+    font-size: 14px;
+    color: rgba(30, 30, 32, 1);
+    text-align: center;
+    padding: 10px;
+}
+
+ul.item-price{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(154, 0, 0, 1);
+}
+
+li.add-order{
+    float: left;
+    width: 70%;
+    height: auto;
+    text-align: center;
+    font-family: 'Source Code Pro';
+    font-size: 22px;
+    color: rgba(255, 227, 94, 1);
+    background-color: rgba(255, 104, 80, 1);
+}
+
+li.price{
+    float: right;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    font-family: 'Source Code Pro';
+    font-size: 22px;
+    color: rgba(255, 227, 94, 1);
+}
+
+.fa-heart-o {
+  color: #FAECEE;
+  cursor: pointer;
+}
+.fa-heart {
+  color: red;
+  cursor: pointer;
+}
+
+ul.icons{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.menu-icons{
+    list-style-type: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+}
+
+li.menu{
+    display: inline-block;
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: rgba(30, 30, 32, 1);
+}
+    
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+	display: table;
+	margin: 15px auto;}
+ul.ul-footer {
+	list-style-type: none;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;}
+li.widgets {
+	display: inline-block;
+	padding: 5px 5px;
+	font-family: 'Source Code Pro';
+  	font-size: 16px;
+  	color: #1E1E20;}
+
+@media screen and (max-width: 500px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .topnav.responsive .icon {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .menu-item {
+    width: calc(80%/2);
+      }
+    p.item-name {
+        font-size: 32px;
+        bottom:5px;
+        right: 5px;
+    }
+    p.ingredients {
+        height: 75px;
+        font-size: 12px;
+    }
+    li.price{
+        font-size: 16px;
+    }
+    li.add-order{
+        font-size: 16px;
+    }    
+}
+
+
+
+
